@@ -75,7 +75,6 @@ const ProductForm = ({ product }) => {
   wouldn't want to use dropdown styled selector anyways - 
   at least if the have a sense for good design lol.
   */
-/*
   const checkDisabled = (name, value) => {
     const match = find(variants, {
       selectedOptions: [
@@ -89,7 +88,6 @@ const ProductForm = ({ product }) => {
     if (match.availableForSale === true) return false
     return true
   }
-*/
 
   const price = Intl.NumberFormat(undefined, {
     currency: minVariantPrice.currencyCode,
